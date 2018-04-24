@@ -1,0 +1,133 @@
+.header
+  width: 100%
+  max-width: 1920px
+  margin: 0 auto
+  background: url(../img/holiday.png) no-repeat
+  position: relative
+  .shadows
+    min-height: 760px
+    background-color: rgba(0,0,0,0.5)
+    .container
+      .mobile_menu
+        opacity: 0
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        max-width: 1300px
+        height: 200px
+        background-color: #14678c
+        z-index: 5
+        border: 2px solid #000000
+        transition: all 0.5s
+        .mobile
+          list-style: none
+          font-size: 16px
+          text-align: center
+          padding-top: 40px
+          li
+            padding: 10px
+            a
+              text-decoration: none
+              color: #FFFFFF
+              font-size: 20px
+              padding: 5px 20px
+              &:hover
+                border: 1px solid #FFFFFF
+                border-radius: 20px
+      .mobile_menu_opened
+        opacity: 1
+      .top
+        padding-top: 60px
+        z-index: 2
+        a
+          text-decoration: none
+          cursor: pointer
+          span
+            display: block
+            font-size: 22px
+            color: #fff
+            font-weight: 600
+      .link
+        margin: 0
+        text-align: right
+        position: relative
+        z-index: 7
+        .global_menu
+          padding: 0
+          margin: 0
+          li
+            display: inline-block
+            list-style: none
+            font-size: 22px
+            padding: 0 20px
+            margin: 0
+            a
+              text-decoration: none
+              color: #FFFFFF
+              font-size: 22px
+              padding: 5px 20px
+              &:hover
+                border: 1px solid #FFFFFF
+                border-radius: 20px
+        .burger_trigger
+          display: none
+          position: absolute
+          width: 55px
+          height: 55px
+          top: 0
+          right: 15px
+          z-index: 6
+        .burger
+          display: none
+          width: 55px
+          height: 5px
+          background-color: #FFFFFF
+          float: right
+          position: relative
+          border-radius: 8px
+          z-index: 6
+          &:before, &:after
+            content: ''
+            display: block
+            position: absolute
+            width: 55px
+            height: 5px
+            background-color: #FFFFFF
+            left: 0
+            top: 13px
+            border-radius: 8px
+            z-index: 6
+          &:after
+            top: 26px
+      .center_logo
+        margin: 0 auto
+        .center
+          padding-top: 180px
+          span
+            display: block
+            text-align: center
+            color: #fff
+            font-size: 55px
+            font-weight: 600
+          span+span
+            padding: 20px
+        .center_middle
+          text-align: center
+          font-size: 22px
+          color: #FFFFFF
+          font-weight: 300
+        .center_btn
+          padding-top: 34px
+          text-align: center
+          .btn
+            background-color: rgba(255,70,80,0.7)
+            color: #FFFFFF
+            font-size: 18px
+            border: none
+            border-radius: 16px
+            padding: 5px 15px
+            cursor: pointer
+            &:hover
+              background-color: rgba(255,78,80,1)
+              font-size: 19px
